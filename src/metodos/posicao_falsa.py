@@ -34,8 +34,8 @@ def posicao_falsa(f, a, b, eps1, eps2, kmax):
             a = x
 
         if abs(b - a) < eps1:
-            return (a + b) / 2, k + 1
+            return x, k + 1
 
         k += 1
 
-    return (a + b) / 2, k
+    return x, k
