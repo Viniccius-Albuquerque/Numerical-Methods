@@ -42,4 +42,4 @@ def bissecao(f, a, b, eps1, eps2, kmax):
             a = m
             fa = fm
 
-    return (a + b) / 2, kmax
+    return (a + b) / 2, k
